@@ -6,9 +6,7 @@
     <title>Beat The Competition - Account Deletion Request</title>
     <style>
       body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-          Arial, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
         color: #333;
         max-width: 800px;
@@ -22,107 +20,55 @@
         border-radius: 8px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
-      h1 {
-        color: #2c3e50;
-        border-bottom: 2px solid #eee;
-        padding-bottom: 10px;
+      h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+      h2 { color: #34495e; margin-top: 30px; }
+      .primary-box {
+        background-color: #e8f4f8; border-left: 4px solid #3498db;
+        padding: 15px; margin: 20px 0; border-radius: 4px;
       }
-      h2 {
-        color: #34495e;
-        margin-top: 30px;
+      .secondary-box {
+        background-color: #fff3cd; border-left: 4px solid #ffc107;
+        padding: 15px; margin: 20px 0; border-radius: 4px;
       }
-      .warning-box {
-        background-color: #fff3cd;
-        border-left: 4px solid #ffc107;
-        padding: 15px;
-        margin: 20px 0;
-        border-radius: 4px;
-      }
-      .email-box {
-        background-color: #e8f4f8;
-        border-left: 4px solid #3498db;
-        padding: 15px;
-        margin: 20px 0;
-        border-radius: 4px;
-      }
-      .footer {
-        margin-top: 40px;
-        text-align: center;
-        font-size: 0.9em;
-        color: #7f8c8d;
-      }
+      .footer { margin-top: 40px; text-align: center; font-size: 0.9em; color: #7f8c8d; }
     </style>
   </head>
   <body>
     <div class="container">
       <h1>Account and Data Deletion</h1>
       <p>
-        This page provides information for
-        <strong>Beat The Competition</strong> players regarding the process of
-        deleting their account and associated personal data, in compliance with
-        Google Play's data safety guidelines.
+        This page provides information for <strong>Beat The Competition</strong> players regarding the process of deleting their account and associated personal data, in compliance with Google Play's data safety guidelines.
       </p>
 
-      <h2>1. Deleting Guest Accounts</h2>
-      <p>
-        Since guest accounts are not linked to an identifiable email address or
-        password, for security reasons—to prevent others from deleting your
-        account using a stolen ID—guest accounts can
-        <strong>ONLY be deleted from within the app</strong>.
-      </p>
-
-      <div class="warning-box">
+      <h2>1. Primary Method: In-App Deletion (Recommended)</h2>
+      <p>The fastest and most secure way to delete your account—whether you play as a Guest or use Google Sign-In—is directly within the game. This instantly removes your active profile from our database.</p>
+      <div class="primary-box">
         <strong>Steps:</strong>
         <ol>
           <li>Open the Beat The Competition app.</li>
-          <li>Go to the <strong>Settings</strong> menu.</li>
-          <li>
-            Tap the <strong>Delete Account</strong> button and confirm your
-            intention.
-          </li>
+          <li>Navigate to <strong>Settings &rarr; Account &rarr; Delete Account</strong>.</li>
+          <li>Confirm your intention to permanently delete your data.</li>
         </ol>
-        <p>
-          <em
-            >Important: Please do this before uninstalling the app. Uninstalling
-            the app will permanently remove your access to the guest account on
-            your device, and your previous statistics will no longer be
-            accessible.</em
-          >
-        </p>
       </div>
 
-      <h2>2. Deleting Google-Linked Accounts</h2>
-      <p>
-        If you have linked the game to your Google account and have already
-        uninstalled the app (or no longer have access to the device), you can
-        request the permanent deletion of your account and saved data from our
-        servers via email.
-      </p>
-
-      <div class="email-box">
-        <strong>Sending a deletion request:</strong>
-        <p>
-          Send an email to the following address:
-          <strong
-            ><a href="mailto:beatthecompetitiondev@gmail.com"
-              >beatthecompetitiondev@gmail.com</a
-            ></strong
-          >
-        </p>
+      <h2>2. Secondary Method: Web / Email Request</h2>
+      <p>If you have already uninstalled the app and cannot access your account (either Guest or Google-linked), you can initiate a deletion request via email.</p>
+      <div class="secondary-box">
+        <strong>How to request deletion:</strong>
+        <p>Send an email to: <strong><a href="mailto:beatthecompetitiondev@gmail.com">beatthecompetitiondev@gmail.com</a></strong></p>
         <ul>
           <li><strong>Subject:</strong> Account Deletion Request</li>
-          <li>
-            <strong>Requirement:</strong> You MUST send the email from the exact
-            email address you used to log into the game. This verifies that you
-            are the rightful owner of the account.
-          </li>
+          <li><strong>Required Info:</strong> Please provide your exact in-game <strong>Player ID</strong> and <strong>Club Abbreviation</strong>.</li>
+          <li><em>Security Note:</em> We may need additional information to locate the account and verify your authority before processing the deletion. Please do not send passwords or login tokens.</li>
         </ul>
       </div>
-      <p>
-        Your request will be processed manually within 30 days. During this
-        process, all data associated with you (profile, in-game progress,
-        statistics) will be permanently and irreversibly deleted.
-      </p>
+
+      <h2>3. Deletion Scope and Timeframe</h2>
+      <p>Once your deletion request is verified and processed (within 30 days):</p>
+      <ul>
+        <li><strong>Active Data:</strong> Your game account, progress, and virtual balances will be immediately and permanently deleted from our active database.</li>
+        <li><strong>Logs and Backups:</strong> Temporary technical operation records will expire naturally. Data stored in secure server backups and provider logs may take additional time to be completely purged, subject to the retention cycles of our cloud providers.</li>
+      </ul>
 
       <div class="footer">
         <p>&copy; 2026 FMH. All rights reserved.</p>
